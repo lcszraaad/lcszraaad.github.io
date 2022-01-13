@@ -9,14 +9,21 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
         
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="components/header.css">
-        <link rel="stylesheet" href="components/banner.css">
-        <link rel="stylesheet" href="components/title.css">
-        <link rel="stylesheet" href="components/subtitlte.css">
-        <link rel="stylesheet" href="components/box.css">
-        <link rel="stylesheet" href="components/button.css">
-        <link rel="stylesheet" href="components/action.css">
+        <link rel="stylesheet" href="components/main-header.css">
+        <link rel="stylesheet" href="components/main-banner.css">
+        <link rel="stylesheet" href="components/main-section.css">
+        <link rel="stylesheet" href="components/title-main.css">
+        <link rel="stylesheet" href="components/main-subtitle.css">
+        <link rel="stylesheet" href="components/main-box.css">
+        <link rel="stylesheet" href="components/main-button.css">
+        <link rel="stylesheet" href="components/main-action.css">
+        <link rel="stylesheet" href="components/skill-tec.css">
+        <link rel="stylesheet" href="components/progress-bar.css">
+        <link rel="stylesheet" href="components/wrapper-skill.css">
+        <link rel="stylesheet" href="components/card-project.css">
+        <link rel="stylesheet" href="components/wrapper-card.css">
+        <link rel="stylesheet" href="components/main-description.css">
+        <link rel="stylesheet" href="components/button-arrow.css">
 
     </head>
 
@@ -24,17 +31,17 @@
 
         <title>Lucas Dias</title>
 
-        <header class="header">
+        <header class="main-header">
 
-            <h1 class="title">Ldias</h1> 
+            <h1 class="main-title">Ldias</h1> 
         
             <nav> <!--navigation-->
 
-                <a class="action" href="" lang="en">Skills</a>
-                <a class="action" href="">Projetos</a>
-                <a class="action" href="">Sobre</a>
-                <a class="action" href="">Contatos</a>
-                <a class="button" href="" lang="en">Download CV</a>
+                <a class="main-action" href="" lang="en">Skills</a>
+                <a class="main-action" href="">Projetos</a>
+                <a class="main-action" href="">Sobre</a>
+                <a class="main-action" href="">Contatos</a>
+                <a class="main-button" href="" lang="en">Download CV</a>
 
             </nav>
 
@@ -42,27 +49,126 @@
 
         </header>
 
-        <section class="banner">
+        <section class="main-banner">
 
             <div class="wrapper">
 
-                <div class="box">
+                <div class="main-box">
 
-                    <h1 class="title">Lucas Dias</h1>
-                    <h2 class="subtitle" lang="en">Developer</h2>
+                    <h1 class="main-title">Lucas Dias</h1>
+                    <h2 class="main-subtitle" lang="en">Developer</h2>
 
                 </div>
 
         
                 <div class="navigation">                   
-                    <a class="button" href="" lang="en">Download CV</a>
-                    <a class="button" href="">Contatos</a>
+                    <a class="main-button" href="" lang="en">Download CV</a>
+                    <a class="main-button" href="">Contatos</a>
                 </div>
 
             </div>
 
         </section>
+
+        <section class="main-section">
+
+            <h2 class="main-title -second">Skills</h2>
+
+            <div class="wrapper-skill">
+
+                <article class="skill-tec">
+                
+                <img class="icon" src="img/ico_html5.png" alt="Logo HTML pixel art">
+
+                <div class="right">
+                
+                    <h3 class="title">HTML</h3>
+                
+                    <progress class="progress-bar" max="100" value="70">
+                    
+                    70%
+
+                    </progress>
+
+                </div>
+
+                </article>
+
+                <article class="skill-tec">
+                
+                <img class="icon" src="img/ico_css3.png" alt="Logo css pixel art">
+
+                <div class="right">
+                
+                    <h3 class="title">CSS</h3>
+                
+                    <progress class="progress-bar" max="100" value="70">
+                    
+                    70%
+
+                    </progress>
+
+                </div>
+
+                </article>
+
+                <article class="skill-tec">
+                
+                <img class="icon" src="img/ico_js.png" alt="Logo JavaScript pixel art">
+
+                <div class="right">
+                
+                    <h3 class="title">JS</h3>
+                
+                    <progress class="progress-bar" max="100" value="70">
+                    
+                    70%
+
+                    </progress>
+
+                </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="main-section -bgBlack -bdFirst">
+
+            <h2 class="main-title -second">Projetos</h2>
+
+            <div class="wrapper-card">
+
+                <figure class="card-project">
+                 <img class="logo" src="img/portfolio.png" alt="">
+                </figure>
+                      
+                <figure class="card-project">
+                    <img class="logo" src="img/firedlabs.png" alt="">
+                </figure>
+                        
+                <figure class="card-project -blue">
+                    <img class="logo" src="img/collabcode.png" alt="">
+                </figure>
+
+            </div>
+        </section>
+
+        <section class="main-section -bgSecond -bdBlack">
+
+            <h2 class="main-title -second">Sobre</h2>
         
+            <p class="main-description">
+                Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
+
+            </p>
+
+            <button class="button-arrow -left"><span class="content">Avançar</span class="content"></button>
+
+            <button class="button-arrow -right"><span class="content">Voltar</span></button>
+        
+        </section>
 
         
 
