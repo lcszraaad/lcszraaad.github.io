@@ -18,3 +18,8 @@
      transform: scale(1.08);
      
  }
+
+ .main-button.-full{
+     width: 100%;
+     margin-bottom: 40px;
+ }
